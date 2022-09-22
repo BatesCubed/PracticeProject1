@@ -1,30 +1,96 @@
+@font-face {
+    font-family: 'Lorin-Light';
+    src: url(fonts/Lorin-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Lorin-Regular';
+    src: url(fonts/Lorin-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lorin-Bold';
+    src: url(fonts/Lorin-Bold.ttf);
+}
+
+.bold {
+    font-family: 'Lorin-Regular', sans-serif;
+}
+
+#logo {
+    height: 75px;
+}
+
 body {
-    background-color: #0C2053;
-    font-family: Helvetica, sans-serif;
-    color: white;
+    font-family: 'Lorin-Light', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
+    text-align: center;
+    margin: .25rem;
+}
+header img {
+    height: 7rem;
+}
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+section {
+    border: 1px solid #000000;
+}
+#bio {
+   display: flex;
+}
+.bioChoseToLearn {
+    width: 100%;
+    margin: 0 .5rem;
     display: flex;
-    justify-content: center;
-    margin-top: 1em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bioPic {
+    height: 185px;
+}
+.nameDate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.aboutInfo {
-    display: flex;
-    flex: center;
+.nameDateContent {
+    font-size: 1.25rem;
+    font-family: 'Lorin-Bold', sans-serif;
 }
 
+.blueBox {
+    background-color: #1F67B9;
+    padding: .5rem;
+    color: #FFFFFF;
+}
+h2 {
+    margin: .75rem;
+}
+
+h4 {
+    margin-bottom: .75rem;
+}
+ul {
+    padding-left: 12px;
+}
 #tech {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
-figcaption {
+
+#tech img {
+    height: 160px;
+}
+figure {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: -20px;
 }
 
 figure > img {
@@ -32,6 +98,28 @@ figure > img {
     max-width: 150px;
 }
 
+figcaption {
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    max-width: 150px;
+    position: relative;
+    top: -20px;
+    color: #FFFFFF;
+}
+
+#learn {
+    height: 200px;
+}
 footer {
     text-align: center;
+}
+
+.footerContent {
+    color: #000000;
+}
+
+.footerIcon {
+    display: inline-block;
+    margin-left: 50vw;
+    margin-top: 10px;
 }

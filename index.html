@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Steven Bates Profile</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <header>
-            <img src="stevensLogoSVG.svg" height="150px" alt="Bates Cubed Productions Logo">
-        </header>
-        <main>
-        <section id="aboutInfo">
-            <div id="profilePic">
-                <img src="stevenPic.jpg" alt="Steven Bates standing in all glory" height="400">
-            </div>
-            <div id="nameDate">
-                <h2>Steven Bates</h2>
-                <h2>08/30/2022</h2>
-            
-            <div id="iChoseToLearn">
-                <ul>
-                    <li>I love coding for websites!</li>
-                    <li>I love coding for websites!</li>
-                    <li>I love coding for websites!</li>
-                    <li>I love coding for websites!</li>
-                    <li>I love coding for websites!</li>
-                </ul>
-            </div>
-            </div>
-        </section>
-       <section id="tech">
-        <figure>
-            <img src="angular-icon-1.svg" alt="Angular Logo">
-            <figcaption>Angular</figcaption>
-        </figure>
-        <figure>
-            <img src="nodejs-icon.svg" alt="Node JS Logo">
-            <figcaption>Node</figcaption>
-        </figure>
-        <figure>
-            <img src="react-1.svg" alt="React Logo">
-            <figcaption>React</figcaption>
-        </figure>
-        <figure>
-            <img src="vue-9.svg" alt="Vue JS Logo">
-            <figcaption>Vue</figcaption>
-        </figure>
-       </section>
-        <div id="mostExcited">
-
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="image/x-icon" rel="icon" href="images/stevensLogoSVG.svg">
+    <title>Steven Bates Landing Page</title>
+  </head>
+  <!--BODY STARTS HERE-->
+  <body>
+  <!--HEADER WITH LOGO-->
+    <header>
+      <img id="logo" src="images/stevensLogoSVG.svg" alt="Bates Cubed Productions Logo">
+    </header>
+  <!--CONTENT CONTAINERS START HERE-->
+    <main>
+      <section id="bio">
+        <img class="bioPic" src="images/stevenPic.JPG">
+  <!--Why I chose to learn AND Name and Date is in this div-->
+        <div class="bioChoseToLearn">
+          <div class="nameDate">
+            <p class="nameDateContent">Steven Bates</p>
+            <time class="nameDateContent" datetime="2022-8-30">08/30/2022</time>
+          </div>
+          <div class="blueBox">
+            <h4>I choose to learn web development because:</h4>
+            <ul>
+              <li>I love coding and design, and web design is a good mixture of both.</li>
+              <li>A website is a needed part of any brand, and I want to be able to help brands build theirs.</li>
+              <li>Coding and design is all about problem solving, you find a problem, and you fix it.</li>
+              <li>It's fun to solve problems using code!</li>
+              <li>It's fun to solve problems using code!</li>
+            </ul>
+          </div>
         </div>
-        </main>
-        <footer>&copy;Steven Bates</footer>
-    </body>
+    <!--bioChoseToLearn div is ended-->
+      </section>
+      <section id="tech">
+        <figure>
+          <img src="images/html-5.svg">
+          <figcaption class="bold">HTML 5</figcaption>
+          <figcaption>HTML5 became the standard version</figcaption>
+        </figure>
+        <figure>
+          <img src="images/js_logo.svg">
+          <figcaption class="bold">JavaScript</figcaption>
+          <figcaption>I'm really new to this, though I like it cause it adds a lot to a site</figcaption>
+        </figure>
+        <figure>
+          <img src="images/css3.svg">
+          <figcaption class="bold">CSS 3</figcaption>
+          <figcaption>I love using Css to give my website life!</figcaption>
+        </figure>
+        <figure>
+        
+          <img src="images/nodejs-icon.svg">
+          <figcaption class="bold">NodeJS</figcaption>
+          <figcaption>Node is very new to me! So I am excited to learn more about it!</figcaption>
+        </figure>
+        
+      </section>
+      <section id="learn">
+        <h2>I am Most Excited to Learn...</h2>
+        <div class="blueBox">
+          <h4>JavaScript</h4>
+          <p>
+            I know my way around HTML and CSS pretty well, though JavaScript I have barely scraped the surface
+            with. I love JavaScript because it adds more life to your website that can really
+            make the viewer love the website!
+          </p>
+        </div>
+      </section>
+    </main>
+  <!--CONTENT CONTAINERS END HERE-->
+  <div id="footerIconbx">
+    <img class="footerIcon" src="images/stevensLogoSVG.svg" alt="Bates Cubed Productions Logo" height="50px">
+  </div>
+    <footer class="footerContent">All Rights Reserved</footer>
+    <footer class="footerContent">&copy;Bates Cubed Productions 2022</footer>
+  </body>
+  <!--BODY ENDS HERE OBVIOUSLY-->
 </html>
