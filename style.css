@@ -46,7 +46,7 @@ section {
 }
 .bioChoseToLearn {
     width: 100%;
-    margin: 0 .5rem;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -80,13 +80,13 @@ h4 {
 ul {
     padding-left: 12px;
 }
-#tech {
+#badges {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
 
-#tech img {
+#badges img {
     height: 160px;
 }
 figure {
